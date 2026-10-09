@@ -1,0 +1,181 @@
+{
+  "common": {
+    "appName": "Gia Đình Số",
+    "tagline": "Mái ấm số cho ba thế hệ",
+    "language": "Ngôn ngữ",
+    "mode": "Chế độ giao diện",
+    "send": "Gửi",
+    "cancel": "Hủy",
+    "close": "Đóng",
+    "save": "Lưu",
+    "readAloud": "Đọc to",
+    "stopReading": "Dừng đọc",
+    "languageChanged": "Đã chuyển sang tiếng Việt.",
+    "demoFamilyName": "Gia đình họ Nguyễn",
+    "footerNote": "Gia Đình Số chỉ là cầu nối: không cuộn vô tận, không giữ bạn lại màn hình, để cả nhà nói chuyện với nhau nhiều hơn."
+  },
+  "modes": {
+    "senior": "Chữ to",
+    "standard": "Tiêu chuẩn",
+    "junior": "Vui nhộn"
+  },
+  "roles": {
+    "grandparent": "Ông bà",
+    "parent": "Bố mẹ",
+    "child": "Con cháu"
+  },
+  "senior": {
+    "greeting": "Dạ, cháu nghe đây.",
+    "heroTitle": "Chào {name}!",
+    "helperHint": "Chữ to, nút lớn. Chỉ cần chạm một lần là xong.",
+    "speakButton": "Chạm để nói",
+    "readMessages": "Đọc tin nhắn cho tôi nghe",
+    "readIntro": "Dạ, đây là những tin nhắn mới nhất của gia đình."
+  },
+  "junior": {
+    "heroTitle": "Chào {name}! Hôm nay mình làm gì vui nào?",
+    "streak": "{days} ngày liên tiếp trò chuyện với ông!",
+    "streakHint": "Gửi một lời chào hôm nay để giữ chuỗi nhé!",
+    "badgesTitle": "Huy hiệu của bạn",
+    "unlocked": "Đã mở",
+    "locked": "Chưa mở",
+    "badges": {
+      "firstHello": {
+        "name": "Lời chào đầu tiên",
+        "desc": "Gửi tin nhắn đầu tiên cho gia đình."
+      },
+      "streak3": {
+        "name": "Chuỗi 3 ngày",
+        "desc": "Trò chuyện 3 ngày liên tiếp."
+      },
+      "streak7": {
+        "name": "Chuỗi 7 ngày",
+        "desc": "Trò chuyện 7 ngày liên tiếp."
+      },
+      "storyteller": {
+        "name": "Người kể chuyện",
+        "desc": "Cùng gia đình lưu 3 câu chuyện trong kho ký ức."
+      },
+      "scamSpotter": {
+        "name": "Thám tử an toàn",
+        "desc": "Cùng cả nhà phát hiện một tin nhắn đáng ngờ."
+      }
+    }
+  },
+  "standard": {
+    "heroTitle": "Bảng điều khiển gia đình",
+    "heroSubtitle": "Quản lý kho ký ức, quyền riêng tư và nhật ký an toàn của cả nhà.",
+    "statMessages": "Tin nhắn",
+    "statMemories": "Câu chuyện đã lưu",
+    "statBlocked": "Cảnh báo lừa đảo",
+    "safeguardsTitle": "Lớp bảo vệ luôn bật",
+    "safeguardScam": "Lá chắn chống lừa đảo",
+    "safeguardSlang": "Cầu nối ngôn ngữ giới trẻ",
+    "safeguardFeed": "Không cuộn vô tận",
+    "active": "Đang bật",
+    "safetyLogTitle": "Nhật ký an toàn",
+    "safetyLogEmpty": "Chưa có cảnh báo nào. Gia đình đang an toàn."
+  },
+  "safety": {
+    "scamTitle": "Cẩn thận: tin nhắn này có dấu hiệu lừa đảo",
+    "gentle": {
+      "medium": "Tin nhắn này có vài điểm đáng ngờ. Mình cứ chậm lại, đừng vội làm theo nhé.",
+      "high": "Rất có thể đây là lừa đảo. Xin đừng chuyển tiền hay đọc mã OTP cho bất kỳ ai."
+    },
+    "risk": {
+      "low": "Mức đáng ngờ: thấp",
+      "medium": "Mức đáng ngờ: vừa",
+      "high": "Mức đáng ngờ: cao"
+    },
+    "reasonLabel": "Vì sao có cảnh báo",
+    "tipsTitle": "Ba điều nên nhớ",
+    "tip1": "Ngân hàng thật không bao giờ hỏi mã OTP hay mật khẩu qua tin nhắn hoặc điện thoại.",
+    "tip2": "Gặp việc “gấp”, hãy dừng lại và hỏi con cháu trước.",
+    "tip3": "Không bấm vào đường link lạ.",
+    "askFamily": "Nhờ con cháu kiểm tra",
+    "askFamilyMessage": "Cả nhà ơi, mình vừa nhận một tin nhắn nghi lừa đảo. Mọi người xem giúp mình nhé.",
+    "understood": "Tôi đã hiểu"
+  },
+  "wall": {
+    "title": "Bức tường gia đình",
+    "subtitle": "Nơi chia sẻ yêu thương. Không có cuộn vô tận, chỉ có những lời chào thật.",
+    "placeholder": "Viết vài lời gửi gia đình...",
+    "voice": "Ghi âm",
+    "sending": "Đang gửi...",
+    "empty": "Chưa có tin nhắn nào. Hãy gửi lời chào đầu tiên!",
+    "unknownSender": "Số lạ (không rõ người gửi)",
+    "slangTitle": "Cầu nối ngôn ngữ"
+  },
+  "voice": {
+    "title": "Ghi âm lời nhắn",
+    "tapToStart": "Chạm để bắt đầu nói",
+    "recording": "Đang nghe... chạm để dừng",
+    "tapToStop": "Chạm để dừng",
+    "recorded": "Đã ghi xong. Nghe lại hoặc gửi đi nhé.",
+    "retake": "Ghi lại",
+    "retry": "Thử lại",
+    "send": "Gửi lời nhắn",
+    "transcriptLabel": "Chữ ghi lại (có thể sửa)",
+    "transcriptPlaceholder": "Lời nhắn sẽ hiện ở đây...",
+    "permissionDenied": "Chưa được phép dùng micro. Hãy bật quyền micro trong trình duyệt rồi thử lại.",
+    "unsupported": "Thiết bị này chưa hỗ trợ ghi âm.",
+    "speakNowPrompt": "Dạ, cháu nghe đây. Bác chạm vào nút micro và nói nhé.",
+    "voiceNoteLabel": "(Tin nhắn thoại)"
+  },
+  "vault": {
+    "title": "Kho ký ức gia đình",
+    "subtitle": "Những câu chuyện của ông bà, bố mẹ và các cháu, được giữ gìn cho mai sau.",
+    "addStory": "Thêm câu chuyện",
+    "storyTitle": "Tiêu đề",
+    "storyText": "Câu chuyện",
+    "year": "Năm xảy ra",
+    "tags": "Thẻ (cách nhau bằng dấu phẩy)",
+    "saveStory": "Lưu vào kho ký ức",
+    "empty": "Kho ký ức đang chờ câu chuyện đầu tiên.",
+    "yearLabel": "Năm {year}",
+    "by": "Người kể: {name}",
+    "exportTitle": "Cuốn sách ký ức",
+    "exportSubtitle": "Xem trước và xuất các câu chuyện thành cuốn sách để in.",
+    "coverLabel": "Bìa sách",
+    "bookCover": "Những câu chuyện của {family}",
+    "bookCoverSub": "Kho ký ức Gia Đình Số",
+    "pageOf": "Trang {current} / {total}",
+    "prevPage": "Trang trước",
+    "nextPage": "Trang sau",
+    "exportButton": "Xuất sách PDF",
+    "exporting": "Đang dàn trang... {percent}%",
+    "exportDone": "Sách đã sẵn sàng!",
+    "exportDoneHint": "Trong hộp thoại in, hãy chọn “Lưu dưới dạng PDF”.",
+    "exportEmpty": "Hãy thêm ít nhất một câu chuyện để xuất sách.",
+    "popupBlocked": "Trình duyệt chặn cửa sổ in nên tệp đã được tải xuống. Hãy mở tệp rồi chọn In → Lưu dưới dạng PDF.",
+    "printTitle": "Sách ký ức gia đình"
+  },
+  "ai": {
+    "sparkTitle": "Hạt giống ký ức hôm nay",
+    "sparkSubtitle": "Vài gợi ý nhỏ để cả nhà cùng trò chuyện.",
+    "generate": "Gợi ý cho hôm nay",
+    "generating": "Đang suy nghĩ...",
+    "useStarter": "Dùng gợi ý này",
+    "error": "Chưa tạo được gợi ý. Mời bạn thử lại.",
+    "humanitarianNote": "AI chỉ gợi ý để mọi người nói chuyện với nhau, không giữ bạn lại trên màn hình.",
+    "slangIntro": "Có vài từ mới của giới trẻ, xin giải thích nhẹ nhàng:",
+    "sparkHeadline": "Hôm nay, cùng nhau nhớ lại một câu chuyện nhỏ",
+    "contextMemory": "Từ kỷ niệm “{title}”",
+    "contextMilestone": "Sắp đến: {label}",
+    "contextGeneral": "Gợi ý hằng ngày",
+    "milestoneBirthday": "Sinh nhật ông",
+    "milestoneWedding": "Kỷ niệm ngày cưới của ông bà",
+    "reason": {
+      "bank": "Nhờ chuyển tiền hoặc hỏi số tài khoản.",
+      "urgency": "Giục làm ngay, không cho thời gian suy nghĩ.",
+      "otp": "Hỏi mã OTP, mã xác thực hoặc mật khẩu.",
+      "lock": "Dọa khóa hoặc đóng băng tài khoản.",
+      "prize": "Báo trúng thưởng hoặc quà tặng bất ngờ.",
+      "authority": "Tự xưng là ngân hàng, công an hoặc cơ quan nhà nước.",
+      "familyImpersonation": "Nói là người thân vừa đổi số điện thoại.",
+      "link": "Có đường link lạ.",
+      "secrecy": "Dặn đừng nói với ai trong gia đình.",
+      "amount": "Nhắc đến một khoản tiền cụ thể."
+    }
+  }
+}

@@ -1,0 +1,181 @@
+{
+  "common": {
+    "appName": "Family Digital Hearth",
+    "tagline": "A digital home for three generations",
+    "language": "Language",
+    "mode": "Display mode",
+    "send": "Send",
+    "cancel": "Cancel",
+    "close": "Close",
+    "save": "Save",
+    "readAloud": "Read aloud",
+    "stopReading": "Stop reading",
+    "languageChanged": "Switched to English.",
+    "demoFamilyName": "The Nguyen Family",
+    "footerNote": "Family Digital Hearth is only a bridge: no infinite scroll, no screen traps, just more real conversations around the family table."
+  },
+  "modes": {
+    "senior": "Large text",
+    "standard": "Standard",
+    "junior": "Playful"
+  },
+  "roles": {
+    "grandparent": "Grandparent",
+    "parent": "Parent",
+    "child": "Child"
+  },
+  "senior": {
+    "greeting": "Yes dear, I'm listening.",
+    "heroTitle": "Hello {name}!",
+    "helperHint": "Big text, big buttons. One tap is all you need.",
+    "speakButton": "Tap to speak",
+    "readMessages": "Read my messages to me",
+    "readIntro": "Here are the latest messages from the family."
+  },
+  "junior": {
+    "heroTitle": "Hi {name}! What fun shall we do today?",
+    "streak": "{days} days chatting with Grandpa!",
+    "streakHint": "Send a hello today to keep your streak alive!",
+    "badgesTitle": "Your badges",
+    "unlocked": "Unlocked",
+    "locked": "Locked",
+    "badges": {
+      "firstHello": {
+        "name": "First Hello",
+        "desc": "Send your very first message to the family."
+      },
+      "streak3": {
+        "name": "3-Day Streak",
+        "desc": "Chat 3 days in a row."
+      },
+      "streak7": {
+        "name": "7-Day Streak",
+        "desc": "Chat 7 days in a row."
+      },
+      "storyteller": {
+        "name": "Storyteller",
+        "desc": "Save 3 stories in the family memory vault."
+      },
+      "scamSpotter": {
+        "name": "Safety Detective",
+        "desc": "Help the family spot a suspicious message."
+      }
+    }
+  },
+  "standard": {
+    "heroTitle": "Family dashboard",
+    "heroSubtitle": "Manage the memory vault, privacy and safety logs for your whole family.",
+    "statMessages": "Messages",
+    "statMemories": "Stories saved",
+    "statBlocked": "Scam alerts",
+    "safeguardsTitle": "Always-on safeguards",
+    "safeguardScam": "Anti-scam guard",
+    "safeguardSlang": "Youth slang bridge",
+    "safeguardFeed": "No infinite scroll",
+    "active": "Active",
+    "safetyLogTitle": "Safety log",
+    "safetyLogEmpty": "No alerts yet. Your family is safe."
+  },
+  "safety": {
+    "scamTitle": "Careful: this message looks like a scam",
+    "gentle": {
+      "medium": "This message has a few suspicious details. Let's slow down and not act on it right away.",
+      "high": "This is very likely a scam. Please do not send money or share any OTP code with anyone."
+    },
+    "risk": {
+      "low": "Suspicion level: low",
+      "medium": "Suspicion level: medium",
+      "high": "Suspicion level: high"
+    },
+    "reasonLabel": "Why we are warning you",
+    "tipsTitle": "Three things to remember",
+    "tip1": "A real bank never asks for your OTP code or password by message or phone.",
+    "tip2": "If something feels “urgent”, stop and ask your family first.",
+    "tip3": "Never tap links from people you do not know.",
+    "askFamily": "Ask my family to check",
+    "askFamilyMessage": "Hi everyone, I just received a message that looks like a scam. Could you take a look with me?",
+    "understood": "I understand"
+  },
+  "wall": {
+    "title": "Family Wall",
+    "subtitle": "A place to share love. No endless scrolling, only real hellos.",
+    "placeholder": "Write a few words to your family...",
+    "voice": "Voice note",
+    "sending": "Sending...",
+    "empty": "No messages yet. Send the first hello!",
+    "unknownSender": "Unknown number (sender not recognised)",
+    "slangTitle": "Language bridge"
+  },
+  "voice": {
+    "title": "Record a voice note",
+    "tapToStart": "Tap to start speaking",
+    "recording": "Listening... tap to stop",
+    "tapToStop": "Tap to stop",
+    "recorded": "Recording done. Listen back or send it.",
+    "retake": "Record again",
+    "retry": "Try again",
+    "send": "Send voice note",
+    "transcriptLabel": "Transcript (you can edit)",
+    "transcriptPlaceholder": "Your message will appear here...",
+    "permissionDenied": "Microphone access was not allowed. Please enable the microphone in your browser and try again.",
+    "unsupported": "This device does not support audio recording.",
+    "speakNowPrompt": "Yes dear, I'm listening. Tap the microphone button and start speaking.",
+    "voiceNoteLabel": "(Voice note)"
+  },
+  "vault": {
+    "title": "Family Memory Vault",
+    "subtitle": "Stories from grandparents, parents and children, kept safe for tomorrow.",
+    "addStory": "Add a story",
+    "storyTitle": "Title",
+    "storyText": "Story",
+    "year": "Year it happened",
+    "tags": "Tags (comma separated)",
+    "saveStory": "Save to the vault",
+    "empty": "The vault is waiting for its first story.",
+    "yearLabel": "Year {year}",
+    "by": "Told by: {name}",
+    "exportTitle": "Memory Book",
+    "exportSubtitle": "Preview and export your stories as a printable book.",
+    "coverLabel": "Cover",
+    "bookCover": "The Stories of {family}",
+    "bookCoverSub": "Family Digital Hearth Memory Vault",
+    "pageOf": "Page {current} of {total}",
+    "prevPage": "Previous page",
+    "nextPage": "Next page",
+    "exportButton": "Export PDF book",
+    "exporting": "Laying out pages... {percent}%",
+    "exportDone": "Your book is ready!",
+    "exportDoneHint": "In the print dialog, choose “Save as PDF”.",
+    "exportEmpty": "Add at least one story to export a book.",
+    "popupBlocked": "Your browser blocked the print window, so the file was downloaded instead. Open it and choose Print → Save as PDF.",
+    "printTitle": "Family Memory Book"
+  },
+  "ai": {
+    "sparkTitle": "Today's Memory Spark",
+    "sparkSubtitle": "A few small ideas to get the whole family talking.",
+    "generate": "Suggest for today",
+    "generating": "Thinking...",
+    "useStarter": "Use this starter",
+    "error": "We could not create suggestions. Please try again.",
+    "humanitarianNote": "AI only suggests topics so people talk to each other, never to keep you on a screen.",
+    "slangIntro": "A few modern words were used. Here is a gentle explanation:",
+    "sparkHeadline": "Today, let's remember one small story together",
+    "contextMemory": "From the memory “{title}”",
+    "contextMilestone": "Coming up: {label}",
+    "contextGeneral": "Daily starter",
+    "milestoneBirthday": "Grandpa's birthday",
+    "milestoneWedding": "Grandparents' wedding anniversary",
+    "reason": {
+      "bank": "Asks you to transfer money or share a bank account number.",
+      "urgency": "Pushes you to act right now, with no time to think.",
+      "otp": "Asks for an OTP, a verification code or a password.",
+      "lock": "Threatens to lock or freeze your account.",
+      "prize": "Claims you won a prize or a surprise gift.",
+      "authority": "Pretends to be a bank, the police or a government office.",
+      "familyImpersonation": "Says a relative has a new phone number.",
+      "link": "Contains an unfamiliar link.",
+      "secrecy": "Asks you not to tell anyone in the family.",
+      "amount": "Mentions a specific amount of money."
+    }
+  }
+}
